@@ -1,4 +1,3 @@
-
 body{
 	background : #81256C;
 }
@@ -108,33 +107,33 @@ section h2{
  	transform: scale(1.05);
  	margin-bottom: 10px;
  }
+ 
+
+ 
 
 
+@media screen and (max-width: 1200px){
 
-
-
-@media screen and (max-width: 768px){
+.writers img{
+	width: 780px;
+	height: 550px;
+}
  .grid-container1{
+  width: 100%;
   display: grid;
   grid-template-columns: auto;
   padding: 10px
  }
-.grid-item1 {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-} 
+
+
+
 
 .grid-container2{
   display: grid;
   grid-template-columns: auto;
   padding: 10px
  }
-.grid-item2 {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-} 
+
 .texte p{
 
    width: 90%;
