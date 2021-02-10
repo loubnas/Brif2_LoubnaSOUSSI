@@ -1,0 +1,149 @@
+
+body{
+	background : #81256C;
+}
+
+
+.titrepage h2{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+.pic{
+	text-align: center;
+}
+
+.pic img {
+	width: 450px;
+}
+
+.qst h2{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	font-weight: 400;
+	margin-top: 15px;
+}
+
+.texte p{
+	border-radius: 20px;
+	background-color: white;
+	border:solid;
+	width: 40%;
+    margin-left: 31%;
+    padding-left: 10px;
+    height: 190px;
+    padding-top: 20px;
+    color :#81256C;
+    font-weight: 500;
+}
+
+.qst1 h2{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	font-weight: 400;
+	margin-top: 15px;
+}
+.texte1 p{
+	border-radius: 20px;
+	background-color: white;
+	border:solid;
+	width: 40%;
+    margin-left: 31%;
+    padding-left: 10px;
+    height: 95px;
+    padding-top: 20px;
+    color :#81256C;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+section{
+background : white;
+}
+
+section h2{
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	font-weight: 400;
+	margin-top: 15px;
+}
+
+.grid-container1{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+  
+.grid-item1  {
+  padding:20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.bk {
+	width:300px;
+	height: 400px;
+	transition: 1s;
+}
+
+
+.bk:hover{
+	transform: scale(1.05);
+	margin-bottom: 10px;
+	
+}
+
+ .writers{
+ 	width:300px;
+	height: 300px;
+	transition: 1s;
+ }
+ .writers:hover{
+ 	transform: scale(1.05);
+ 	margin-bottom: 10px;
+ }
+
+
+
+
+
+@media screen and (max-width: 768px){
+ .grid-container1{
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px
+ }
+.grid-item1 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+} 
+
+.grid-container2{
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px
+ }
+.grid-item2 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+} 
+.texte p{
+
+   width: 90%;
+   margin-left: 5%;
+   font-size: 12px;
+}
+.texte1 p{
+ width: 90%;
+ margin-left: 5%;
+ font-size: 14px;	
+}
+}
