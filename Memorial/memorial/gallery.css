@@ -3,7 +3,6 @@
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
-  background : #81256C;
 
 }
 
@@ -32,7 +31,6 @@ body{
 
 
 h3{
-	font-size :20px ;
 	color : white;
 	font-weight: 400;
 }
@@ -58,8 +56,8 @@ h3{
 
 /* Responsive for Mobile  : */
 @media screen and (max-width: 800px){
+
  .grid-container{
-  
   display: grid;
   grid-template-columns: auto;
   padding: 10px;
