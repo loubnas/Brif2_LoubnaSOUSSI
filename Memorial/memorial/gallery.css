@@ -42,10 +42,8 @@ h3{
 
  .grid-container{
   width: 100%;
-  display: grid;
   justify-content: center;
   grid-template-columns: auto auto;
-  padding: 10px;
  }
 
  .book img{
@@ -58,9 +56,9 @@ h3{
 @media screen and (max-width: 800px){
 
  .grid-container{
-  display: grid;
+  
   grid-template-columns: auto;
-  padding: 10px;
+
  }
 
 
